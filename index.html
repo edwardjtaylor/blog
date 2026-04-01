@@ -6,54 +6,70 @@
     <title>equilibrium.bike blog</title>
     <style>
         body {
-            font-family: system-ui, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: #f7f7f7;
-            color: #333;
-        }
+    font-family: system-ui, sans-serif;
+    margin: 0;
+    padding: 2rem 1rem;
+    background: #fff;
+    color: #000;
+    line-height: 1.6;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-        header {
-            background: #222;
-            color: white;
-            padding: 2rem 1rem;
-            text-align: center;
-        }
+/* Remove the heavy header block */
+header {
+    padding: 0;
+    margin-bottom: 2rem;
+    text-align: left;
+    background: none;
+    color: inherit;
+}
 
-        header h1 {
-            margin: 0;
-            font-size: 2.4rem;
-        }
+header h1 {
+    margin: 0 0 1rem 0;
+    font-size: 2rem;
+    font-weight: 600;
+}
 
-        main {
-            max-width: 800px;
-            margin: 2rem auto;
-            padding: 0 1rem;
-        }
+/* Main content becomes a simple text column */
+main {
+    padding: 0;
+    margin: 0;
+}
 
-        .blog-entry {
-            background: white;
-            padding: 1.5rem;
-            margin-bottom: 1.5rem;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.08);
-        }
+/* Blog entries become plain text sections */
+.blog-entry {
+    padding: 0;
+    margin-bottom: 3rem;
+    background: none;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+}
 
-        .blog-entry h2 {
-            margin-top: 0;
-        }
+/* Headings are understated */
+.blog-entry h2 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
 
-        .blog-entry .meta {
-            color: #777;
-            font-size: 0.9rem;
-            margin-bottom: 1rem;
-        }
+/* Metadata becomes quiet, almost invisible */
+.blog-entry .meta {
+    color: #666;
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+}
 
-        footer {
-            text-align: center;
-            padding: 2rem 1rem;
-            color: #666;
-        }
+/* Footer is just a line of text */
+footer {
+    text-align: left;
+    padding: 2rem 0;
+    color: #666;
+    font-size: 0.9rem;
+}
+
     </style>
 </head>
 <body>
